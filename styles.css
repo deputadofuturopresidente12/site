@@ -1,0 +1,280 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #030000; /* Fundo cinza */
+    background-image: 
+        url('imagem1.jpg'), 
+        url('imagem2.jpg'),
+        url('imagem3.jpg'),
+        url('imagem4.jpg'),
+        url('imagem5.jpg'),
+        url('imagem6.jpg'),
+        url('imagem7.jpg'),
+        url('imagem8.jpg'),
+        url('imagem9.jpg'),
+        url('imagem10.jpg'),
+        url('imagem11.jpg');
+    background-size: cover; /* As imagens cobrem toda a tela */
+    background-position: center; /* As imagens ficam centralizadas */
+    background-repeat: no-repeat; /* As imagens não se repetem */
+    background-attachment: fixed; /* As imagens não se movem ao rolar a página */
+}
+
+/* Estilos do cabeçalho e navegação */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 2px solid #1900fd;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #00ffd5;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Seção Hero */
+.hero {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(0, 0, 0); /* Fundo semi-transparente para garantir boa legibilidade */
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.8rem;
+    color: #FFD700;
+    margin-top: 20px;
+}
+
+/* Estilos para o vídeo */
+.video-container {
+    width: 100%;
+    max-width: 1200px; /* Limita o tamanho máximo */
+    height: 650px; /* Tamanho fixo para o quadrado */
+    background-color: #333;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container video {
+    width: 90%; /* O vídeo ocupa 90% da largura do container */
+    height: 90%; /* O vídeo ocupa 90% da altura do container */
+    border: 5px solid #FFD700; /* Borda dourada */
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #FFD700;
+}
+
+/* Estilos da seção de produtos */
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding: 90px 0;
+    background-color: #22222200;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0c0c0c;
+    color: #fff;
+    line-height: 1.6;
+    background-image: 
+        url('https://i.imgur.com/fI1dH3E.png'), 
+        url('imagem2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.produto {
+    text-align: center;
+    width: 250px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 3px 15px rgb(77, 10, 211);
+}
+
+.produto .imagem-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Removendo o efeito degradê */
+.produto .degrade {
+    display: none;
+}
+
+.produto h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #FFD700;
+}
+
+.produto p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFBF00;
+}
+
+/* Rodapé para produtos */
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    color: #3bf104;
+}
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+
+
+/* Cabeçalho e navegação */
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #1900fd;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+nav ul li a {
+    color: #0dd1c7da;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Seção Suporte */
+.suporte {
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 30px; /* Espaçamento interno reduzido */
+    background-color: #1c2423da; /* Fundo semi-transparente */
+    margin: 20px auto; /* Espaçamento externo reduzido e centralizado */
+    border-radius: 20px; /* Bordas arredondadas */
+    width: 80%; /* Reduz a largura da seção */
+    max-width: 500px; /* Limita o tamanho máximo */
+}
+
+
+
+.suporte h2 {
+    font-size: 2rem;
+    color: #FFD700;
+    margin-bottom: 1px;
+}
+
+.suporte p {
+    font-size: 1rem;
+    margin-bottom: 1px;
+    color: #ddd;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #1c5a72;
+    color: rgb(2, 204, 255);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #cfc9c9d0;
+}
+
+.whatsapp-button i {
+    margin-right: 5px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 30;
+    background-color: #8d1e1e00;
+    color: #02baf1;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9rem;
+}
